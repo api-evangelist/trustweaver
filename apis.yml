@@ -1,8 +1,27 @@
 aid: trustweaver
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trustweaver.png
 name: TrustWeaver
-description: 'TrustWeaver is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  TrustWeaver was a Stockholm-based provider of on-demand e-invoicing and e-signature
+  compliance services, giving multinational enterprises legally compliant electronic
+  invoicing (VAT/tax compliance, authenticity and integrity via digital signatures)
+  across dozens of countries. Backed by Creandum, the company was acquired by Pagero
+  in 2018; Pagero was subsequently absorbed into Sovos (2024). The trustweaver.com
+  domain now issues a 301 redirect to Sovos's e-invoicing compliance solution, so no
+  independent TrustWeaver developer portal, public API, or API documentation remains
+  online. This profile is retained as a historical/acquisition lead in the API
+  Evangelist network; there is no standalone API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/trustweaver/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +29,31 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: pagero
+x-acquired-year: 2018
+x-successor: sovos
+x-redirects-to: https://sovos.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Saas
+- E-Invoicing
+- Compliance
+- E-Signature
+- Tax
+- VAT
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
